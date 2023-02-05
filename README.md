@@ -8,7 +8,7 @@ In this web applocation project I used flask framework module like
 request - to establish connection to xampp (request is a function to extract the data from keys)
 render_template - to redirect Html file 
 
-### following are the routes to create web app
+### following are the routes to create web app :
 
 app.index - fetching data from database
 app.form - create web interface using html 
@@ -17,5 +17,5 @@ app.delete - delete the record
 app.edit - edit the existing record in database 
 app.update - save the edited record in database 
 
-## Technologies and Tools :
+### Technologies and Tools :
 Python, Flask framework, Xampp, Spyder compile tool, chrome browser to check oue web app
