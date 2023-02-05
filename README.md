@@ -4,7 +4,7 @@
 
 This project is create to make a website to manage bank customer record. This project is created using python in spyder and flask framework by establishing connection with Xampp.
 
-In this web applocation project I used flask framework module like 
+In this web application project I used flask framework module like 
 request - to establish connection to xampp (request is a function to extract the data from keys)
 render_template - to redirect Html file 
 
