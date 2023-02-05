@@ -1,0 +1,31 @@
+
+
+<html>
+    <head>
+           <title>TODO|User Dashboard</title>
+    </head>
+    <body>
+           <h1>User Dashboard</h1>
+           <a href="/form">Creat Task</a>
+           <table border="1" align="center">
+                 <tr>
+                       <th>Title</th>
+                       <th>Details</th>
+                       <th>Date</th>
+                       <th>Edit</th>
+                       <th>Delete</th>
+                 </tr>
+                 
+                 {%for x in d%}
+                 <tr>
+                     <td>{{x.1}}</td>
+                     <td>{{x.2}}</td>
+                     <td>{{x.3}}</td>
+                     <td><a href="/edit/{{x.0}}">Edit</a></td>
+                     <td><a href="/delete/{{x.0}}">Delete</a></td>
+                 </tr>
+                 {%endfor%}
+           </table>
+    </body>
+</html>
+       

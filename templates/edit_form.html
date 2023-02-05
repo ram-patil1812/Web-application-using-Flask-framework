@@ -1,0 +1,34 @@
+
+
+<html>
+    <head>
+           <title>TODO|FORM</title>
+    </head>
+    <body>
+           <h1>Update Task</h1>
+           <form method="POST" action="/update">
+                <table border="1" align="center">
+                  <tr>
+                       <td><input type="hidden" name="rid" value="{{d.0}}"></td>
+                  </tr>
+                  <tr>
+                       <td>Title:</td>
+                       <td><input type="type" name="title" value="{{d.1}}"></td>
+                  </tr>
+                  <tr>
+                       <td>Details:</td>
+                       <td><input type="text" name="detail" value="{{d.2}}"></td>
+                  </tr>
+                  <tr>
+                       <td>Date:</td>
+                       <td><input type="date" name="date" value="{{d.3}}"></td>
+                  </tr>
+                  <tr>
+                       <td><input type="submit" name="send" value="Update Task"></td>
+                  </tr>
+           </form>
+    </body>
+</html>
+
+
+
