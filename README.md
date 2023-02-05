@@ -16,3 +16,6 @@ app.insert - to insert the record
 app.delete - delete the record
 app.edit - edit the existing record in database 
 app.update - save the edited record in database 
+
+## Technologies and Tools :
+Python, Flask framework, Xampp, Spyder compile tool, chrome browser to check oue web app
